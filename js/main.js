@@ -20,7 +20,8 @@ for (let i = 0; i < 100 ; i++){
     
     buttonDom.addEventListener('click',
         function(){
-            squareDom.classList.toggle('d_none')
+            squareDom.classList.toggle('d_none');
+            squareDom.classList.remove('selected');
         }
     
     
