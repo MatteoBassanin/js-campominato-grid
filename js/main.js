@@ -8,30 +8,25 @@ for (let i = 0; i < 100 ; i++){
      
     squareDom.addEventListener('click',
         function(){
-
             this.classList.toggle('selected');
             console.log(i + 1);
-        }
-        
-    
-    
-    
-    
-    
-    
-    
+        }    
     
     );
 
-
-
-
-
     containerDom.append(squareDom);
-}
+};
 
 
+const buttonDom = document.getElementById("action");
 
+buttonDom.addEventListener('click',
+    function(){
+        containerDom.classList.toggle('invisible')
+    }
+
+
+);
 
 
 // mettere in maniera progressiva numeri nei quadrati
