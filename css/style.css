@@ -16,3 +16,7 @@
     height: calc(500px / 10);
     border: 1px solid black;
 }
+
+.selected{
+    background-color: aquamarine;
+}
