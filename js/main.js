@@ -14,19 +14,24 @@ for (let i = 0; i < 100 ; i++){
     
     );
 
+
+
+    const buttonDom = document.getElementById("action");
+    
+    buttonDom.addEventListener('click',
+        function(){
+            squareDom.classList.toggle('d_none')
+        }
+    
+    
+    );
+
+
+
     containerDom.append(squareDom);
 };
 
 
-const buttonDom = document.getElementById("action");
-
-buttonDom.addEventListener('click',
-    function(){
-        containerDom.classList.toggle('invisible')
-    }
-
-
-);
 
 
 // mettere in maniera progressiva numeri nei quadrati
