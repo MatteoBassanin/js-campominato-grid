@@ -3,12 +3,14 @@ const containerDom = document.getElementById("grid_container");
 
 for (let i = 0; i < 100 ; i++){
     const squareDom = document.createElement('div');
+    squareDom.innerHtml = i;
     squareDom.classList.add('square');
      
     squareDom.addEventListener('click',
         function(){
 
             this.classList.toggle('selected');
+            console.log(i + 1);
         }
         
     
