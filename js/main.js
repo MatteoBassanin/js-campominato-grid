@@ -35,8 +35,10 @@ function hardGame(){
     for (let i = 0; i < 81 ; i++){
         const squareDom = document.createElement('div');
         squareDom.innerHtml = i;
-        squareDom.classList.add('square');
+        // squareDom.classList.remove('square');
+        squareDom.classList.add('square_hard');
         squareDom.classList.add('d_none');
+
         containerDom.append(squareDom);
         squareDom.addEventListener('click',
         

@@ -17,6 +17,13 @@
     border: 1px solid black;
 }
 
+.square_hard{
+    width: calc(500px / 9);
+    height: calc(500px / 9);
+    border: 1px solid black;
+}
+
+
 .selected{
     background-color: aquamarine;
 }
