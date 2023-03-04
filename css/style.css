@@ -11,7 +11,7 @@
     flex-wrap: wrap;
 }
 
-.square{
+.square_easy{
     width: calc(500px / 10);
     height: calc(500px / 10);
     border: 1px solid black;
@@ -20,6 +20,12 @@
 .square_hard{
     width: calc(500px / 9);
     height: calc(500px / 9);
+    border: 1px solid black;
+}
+
+.square_mamma_mia{
+    width: calc(500px / 7);
+    height: calc(500px / 7);
     border: 1px solid black;
 }
 
